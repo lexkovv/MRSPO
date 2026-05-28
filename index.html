@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <title>PLANT•SHOP — Главная</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+  <a class="logo" href="index.html">PLANT•SHOP</a>
+
+  <nav class="nav" aria-label="Основная навигация">
+    <a href="catalog.html">Каталог</a>
+    <a href="catalog.html#bouquets">Букеты</a>
+    <a href="index.html#delivery">Доставка</a>
+    <a href="index.html#contacts">Контакты</a>
+  </nav>
+
+  <div class="icons">
+    <a class="icon-btn" href="#" aria-label="Поиск">🔍</a>
+    <a class="icon-btn" href="#" aria-label="Корзина">🛒</a>
+    <a class="icon-btn" href="#" aria-label="Профиль">👤</a>
+  </div>
+</header>
+
+    <main>
+      <section class="card hero">
+        <div>
+          <div class="badge">−10% на первый заказ</div>
+          <h1 class="h1">Свежие цветы<br>для каждого повода</h1>
+          <p class="muted">Доставка сегодня • букеты вручную • памятка по уходу в каждом заказе</p>
+
+          <ul class="list">
+            <li>Свежие поставки от фермеров</li>
+            <li>Безопасная оплата</li>
+            <li>Фото букета перед доставкой</li>
+          </ul>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="catalog.html">Выбрать букет</a>
+            <a class="btn btn--secondary" href="#how">Как это работает</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img src="img/hero.jpg" alt="Фото букета" />
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <h2 class="h2">О проекте</h2>
+        <p class="muted">Мы подбираем сезонные цветы и собираем букеты вручную. Каждый заказ оформляем в день доставки.</p>
+
+        <div class="grid grid--3">
+          <article class="card feature">
+            <div class="icon-tile"></div>
+            <h3 class="h3">Сезонный выбор</h3>
+            <p class="muted">Только свежие цветы по сезону</p>
+          </article>
+          <article class="card feature">
+            <div class="icon-tile"></div>
+            <h3 class="h3">Букеты вручную</h3>
+            <p class="muted">Собираем флористами, а не «конвейером»</p>
+          </article>
+          <article class="card feature">
+            <div class="icon-tile"></div>
+            <h3 class="h3">Доставка с заботой</h3>
+            <p class="muted">Упакуем надёжно, привезём аккуратно</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="h2">Почему вам понравится</h2>
+        <p class="muted">Понятные выгоды — без лишних обещаний.</p>
+
+        <div class="grid grid--3">
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Доставка сегодня</h3><p class="muted">Заказ до 15:00</p></article>
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Всегда свежие</h3><p class="muted">Собираем в день доставки</p></article>
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Честные цены</h3><p class="muted">Без скрытых доплат</p></article>
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Открытка</h3><p class="muted">Добавьте тёплое сообщение</p></article>
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Эко-упаковка</h3><p class="muted">Минимум пластика</p></article>
+          <article class="card benefit"><div class="icon-tile"></div><h3 class="h3">Уход в комплекте</h3><p class="muted">Цветы стоят дольше</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="h2">Нам доверяют</h2>
+        <p class="muted">Немного фактов и отзывов.</p>
+
+        <div class="grid grid--3">
+          <article class="card stat"><div class="stat__big">4.8/5</div><div class="muted">Средняя оценка</div></article>
+          <article class="card stat"><div class="stat__big">10 000+</div><div class="muted">Доставленных букетов</div></article>
+          <article class="card stat"><div class="stat__big">24/7</div><div class="muted">Поддержка</div></article>
+        </div>
+
+        <div class="grid grid--2 section">
+          <article class="card quote">“Букет был как на фото — очень красиво!”<div class="quote__who">Анна К.</div></article>
+          <article class="card quote">“Доставили за 2 часа, цветы свежайшие.”<div class="quote__who">Марк Д.</div></article>
+        </div>
+      </section>
+
+      <section class="cta" id="delivery">
+        <h2 class="h2">Скидка 10% на первый заказ</h2>
+        <p class="muted">Подпишитесь на новости и сезонные подборки. Никакого спама.</p>
+
+        <form class="cta__form" action="#" method="post">
+          <input class="input" type="email" name="email" placeholder="Email" required />
+          <button class="btn btn--primary" type="submit">Получить</button>
+        </form>
+
+        <p class="muted" style="margin-top:10px;">Можно отписаться в любой момент.</p>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+  <div>
+    <div class="logo">PLANT•SHOP</div>
+    <div class="muted">Уют начинается с зелени.</div>
+  </div>
+
+  <div class="footer__col">
+    <div class="footer__title">Разделы</div>
+    <a href="catalog.html">Каталог</a>
+    <a href="catalog.html#bouquets">Букеты</a>
+    <a href="index.html#delivery">Доставка</a>
+    <a href="index.html#contacts">Контакты</a>
+  </div>
+
+  <div class="footer__col">
+    <div class="footer__title">Помощь</div>
+    <a href="#">Как ухаживать</a>
+    <a href="#">Оплата</a>
+    <a href="#">Возврат</a>
+    <a href="#">FAQ</a>
+  </div>
+</footer>
+  </div>
+</body>
+</html>
